@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:backgroundTint="@color/colorPrimary">
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="how many hours of sleep should u get per dayyy???? :((("
+                    android:textSize="20dp"
+                    android:textColor="@color/colorPrimaryDark"/>
+                <RadioButton
+                    android:id="@+id/right1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="8 hours"
+                    android:textColor="@color/colorPrimary"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="maybe 2?"
+                    android:textColor="@color/colorPrimary"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="10 minutes"
+                    android:textColor="@color/colorPrimary"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="no sleep"
+                    android:textColor="@color/colorPrimary"/>
+            </RadioGroup>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="what is a primary color?"
+                    android:textSize="20dp"
+                    android:textColor="@color/colorPrimaryDark"/>
+                <RadioButton
+                    android:id="@+id/right2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="yellow"
+                    android:textColor="@color/colorPrimary"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="green"
+                    android:textColor="@color/colorPrimary"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="white"
+                    android:textColor="@color/colorPrimary"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="orange"
+                    android:textColor="@color/colorPrimary"/>
+            </RadioGroup>
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="what is a group of crows called?"
+                    android:textSize="20dp"
+                    android:textColor="@color/colorPrimaryDark"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="hay"
+                    android:textColor="@color/colorPrimary"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="flock"
+                    android:textColor="@color/colorPrimary"/>
+                <RadioButton
+                    android:id="@+id/right3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="murder"
+                    android:textColor="@color/colorPrimary"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="wimbles"
+                    android:textColor="@color/colorPrimary"/>
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="what makes a good pet?"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimaryDark"/>
+            <CheckBox
+                android:id="@+id/click1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="walnut"
+                android:textColor="@color/colorPrimaryDark"/>
+            <CheckBox
+                android:id="@+id/click2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="hamster"
+                android:textColor="@color/colorPrimaryDark"/>
+            <CheckBox
+                android:id="@+id/click3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="dog"
+                android:textColor="@color/colorPrimaryDark"/>
+            <CheckBox
+                android:id="@+id/click4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="rock"
+                android:textColor="@color/colorPrimaryDark"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/oliver"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Who is this?"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimaryDark"/>
+            <EditText
+                android:id="@+id/right5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text = "Submit"
+                android:onClick="submit"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</android.support.constraint.ConstraintLayout>
